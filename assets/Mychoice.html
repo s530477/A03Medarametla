@@ -1,0 +1,45 @@
+<!doctype html>
+    <head>
+        <title>My Choice
+        </title>
+     <link rel="stylesheet" href="Mychoice.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+
+          <body> 
+              <nav class="navbar navbar-inverse navbar-fixed-top">
+                  <div class="container">
+                        <div class="form-group">
+                      <h2><a class="navbar-brand" href="home.html">Home</a>
+                         <a class="active" href="#Mychoice" >MyChoice</a>	
+                        <a href="Contact.html" >Contact</a>
+                        <a href="guestbook">GuestBook</a></h2>
+
+                  </div>
+                </div>
+                </nav>
+                <br>
+                <br>
+              <br>
+              <br>
+
+            <div class="container">
+            <h2><span style=text-decoration:underline></style> EMI Calculator</span> </h2>
+            <br>
+            <br>
+               <p> Loan Amount: <input type="text" id="prncipleAmount" name="prncipleAmount" placeholder="Enter Loan Amount"> </p>
+              <br>
+               <p> Interest Rate:  <input type="text" id="InterestRate" name="InterestRate"  placeholder="Enter Rate of Interest"> </p>
+               <br>
+               <p>Loan Period (in month):  <input type="text" id="emiMonths" name="emiMonth" placeholder="Enter Period in Month"></p>
+              <br>
+                <button type = "button" class="btn btn-success" onclick="EmiCalculaor()"> Find EMI </button>
+
+           
+             <div id="result" align="center" style="color:#006;margin-top:20px;">EMI: </div>
+            </div>
+          <script src = "emi.js"></script>    
+        </body>
+</html>
